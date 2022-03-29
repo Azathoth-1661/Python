@@ -13,7 +13,7 @@
 df = pd.read_excel("./stocks.xlsx")
 df[:5]
 ```
-
+![image](https://github.com/Azathoth-1661/Python/blob/main/pandas/20.png)
 ### 讀取不同試算表
 ```python
 # read from the aapl worksheet
