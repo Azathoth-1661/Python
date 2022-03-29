@@ -100,4 +100,6 @@ np.linspace(2.0, 3.0, num=5, retstep=True)
 (array([2.  , 2.25, 2.5 , 2.75, 3.  ]), 0.25)
 ```
 
-## numpy.array
+## numpy.array(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0, like=None)
+
+* 創建一個陣列
