@@ -16,4 +16,9 @@
 
 <h2 id="3">numpy.linspace()</h2>
 
-* numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
+numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
+
+* 必填參數
+ * start
+   序列的初始值
+ * stop  
