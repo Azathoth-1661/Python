@@ -58,9 +58,7 @@
 * [numpy.linspace()](#3)
 * [numpy.array](https://numpy.org/doc/stable/reference/generated/numpy.array.html)
 
-<h2 id="3">numpy.linspace()</h2>
-
-numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
+<h2 id="3">numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)</h2>
 
 * 必填參數
   * start : array_like
@@ -101,3 +99,5 @@ np.linspace(2.0, 3.0, num=5, retstep=True)
 ```
 (array([2.  , 2.25, 2.5 , 2.75, 3.  ]), 0.25)
 ```
+
+## numpy.array
