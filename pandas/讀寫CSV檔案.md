@@ -23,7 +23,7 @@ msft.csv            100%[===================>] 149.52K  --.-KB/s    in 0.01s
 
 2022-03-29 19:40:04 (11.7 MB/s) - ‘msft.csv’ saved [153109/153109]
 ```
-檢視資料
+# 檢視資料
 ```py
 !head -n 5 msft.csv 
 ```
@@ -34,9 +34,39 @@ Date,Open,High,Low,Close,Volume
 7/17/2014,84.35,84.63,83.33,83.63,1974000
 7/16/2014,83.77,84.91,83.66,84.91,1755600
 ```
-Reading a CSV into a DataFrame
+# Reading a CSV into a DataFrame
 ```py
 msft = pd.read_csv("./msft.csv")
 msft[:5]
 ```
 ![image](https://github.com/Azathoth-1661/Python/blob/main/pandas/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-03-30%20040412.png)
+
+# Specifying the index column when reading a CSV file
+```py
+# use column 0 as the index
+msft = pd.read_csv("./msft.csv", index_col=0)
+msft[:5]
+```
+# 寫入CSV Saving a DataFrame to a CSV ==> pandas.DataFrame.to_csv()
+```py
+# read in data only in the Date and Close columns
+# and index by the Date column
+df2 = pd.read_csv("./msft.csv", usecols=['Date', 'Close'], index_col=['Date'])
+df2[:5]
+```
+```
+```
+```py
+# save df2 to a new csv file
+# also specify naming the index as date
+df2.to_csv("./msft_A999168.csv", index_label='date')
+```
+```
+
+```
+```py
+# view the start of the file just saved
+!head -n 5 ./msft_A999168.csv
+```
+```
+```
