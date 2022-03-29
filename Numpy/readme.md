@@ -9,7 +9,6 @@
 <h2 id="1">核心</h2>
 
 * ndarray（n-dimensional array，多維陣列）資料結構 ==> 表示多維度、同質並且固定大小的陣列物件
-
 * ndarray的屬性
   * 軸(axis)  
     [參考筆記](http://changtw-blog.logdown.com/posts/895468-python-numpy-axis-concept-organize-notes)
@@ -52,11 +51,8 @@
     ```
     6
     ```
-
 <h2 id="2">常用function</h2>
 
 
 
-## numpy.array(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0, like=None)
 
-* 創建一個陣列
