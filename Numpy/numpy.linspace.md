@@ -1,4 +1,4 @@
-<h2 id="3">numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)</h2>
+<h2 id="3">[numpy.linspace](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html)(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)</h2>
 
 * 必填參數
   * start : array_like
