@@ -11,7 +11,7 @@
 * ndarray（n-dimensional array，多維陣列）資料結構 ==> 表示多維度、同質並且固定大小的陣列物件
 
 * ndarray的屬性
-  * 軸(axis)
+  * 軸(axis)  
     [參考筆記](http://changtw-blog.logdown.com/posts/895468-python-numpy-axis-concept-organize-notes)
   * 維度(dimension):ndim
   * 秩rank 
