@@ -15,3 +15,5 @@
 * [numpy.linspace()](#3)
 
 <h2 id="3">numpy.linspace()</h2>
+
+* numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
