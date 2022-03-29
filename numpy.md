@@ -19,6 +19,6 @@
 numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)
 
 * 必填參數
- * start
+ * start  
    序列的初始值
  * stop  
