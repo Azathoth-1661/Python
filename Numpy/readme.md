@@ -7,7 +7,13 @@
 * [核心](#2)
 
 <h2 id="1">使用版本</h2>
-
+```py
+import numpy as np
+print(np.__version__)
+```
+```
+1.21.5
+```
 <h2 id="2">核心</h2>
 
 * ndarray（n-dimensional array，多維陣列）資料結構 ==> 表示多維度、同質並且固定大小的陣列物件
