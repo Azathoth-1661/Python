@@ -21,18 +21,37 @@
 <h2 id="3">基礎語法</h2>
 
 python可以同一行顯示多個語句，使用;分開
+語句中包含[],{}等括號 則不需要使用連接符號 \
 ```py
 print('hello');print('hello1');
 total = "A" + \
         "B" + \
         "C"
-total
+print(total)
+days = ['Monday', 'Tuesday', 'Wednesday',
+        'Thursday', 'Friday']
+print(days)
+x ='a'
+y ='b'
+#默認換行輸出
+print(x)
+print(y)
+#不換行輸出
+print(x,y)
 ```
 結果
 ```
 hello
 hello1
 ABC
+['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+hello
+hello1
+ABC
+['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+a
+b
+a b
 ```
 
 python不使用{}(大括號)，取而代之使用縮排來取代大括號，因此對於縮排非常重要
