@@ -56,6 +56,7 @@
 <h2 id="2">常用function</h2>
 
 * [numpy.linspace()](#3)
+* [numpy.array](https://numpy.org/doc/stable/reference/generated/numpy.array.html)
 
 <h2 id="3">numpy.linspace()</h2>
 
