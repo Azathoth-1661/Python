@@ -14,6 +14,13 @@
   * 軸(axis)  
     [參考筆記](http://changtw-blog.logdown.com/posts/895468-python-numpy-axis-concept-organize-notes)
   * 維度(dimension):ndim
+    ```py
+    ar2=np.array([[0,3,5],[2,8,7]]) # 產生一個 2D array
+    ar2.ndim
+    ```
+    ```
+    2
+    ```
   * 秩rank 
   * 形狀(shape):shape
   * dtype(資料型態:data type)
