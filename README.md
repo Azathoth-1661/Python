@@ -81,7 +81,7 @@ True
 
 <h2 id="4">變數類型</h2>
 
-python的變數賦值不需要宣告類型
+python的變數賦值不需要宣告類型，且可以多個變數賦值，且變數類型可不相同
 ```py
 A = 100 
 B = 1000.0 
@@ -90,9 +90,21 @@ C = "John"
 print(A)
 print(B)
 print(C)
+
+a = b = c = 1
+print(a,b,c)
+x, y, z = 1, 2, "john"
+print(x,y,z)
 ```
 ```
 100
 1000.0
 John
 ```
+python支援五種數據類型
+* Numbers（數位）
+* String（字串）
+* List（清單）
+* Tuple（元組）
+* Dictionary（字典）
+
