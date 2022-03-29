@@ -39,11 +39,4 @@ Reading a CSV into a DataFrame
 msft = pd.read_csv("./msft.csv")
 msft[:5]
 ```
-```
-  Date	     Open	 High	 Low	  Close	Volume
-0	7/21/2014	83.46	83.53	81.81	81.93	2359300
-1	7/18/2014	83.30	83.40	82.52	83.35	4020800
-2	7/17/2014	84.35	84.63	83.33	83.63	1974000
-3	7/16/2014	83.77	84.91	83.66	84.91	1755600
-4	7/15/2014	84.30	84.38	83.20	83.58	1874700
-```
+![image](https://github.com/Azathoth-1661/Python/blob/main/pandas/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-03-30%20040412.png)
