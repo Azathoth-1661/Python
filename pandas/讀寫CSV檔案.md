@@ -47,6 +47,8 @@ msft[:5]
 msft = pd.read_csv("./msft.csv", index_col=0)
 msft[:5]
 ```
+![image](https://github.com/Azathoth-1661/Python/blob/main/pandas/1.png)
+
 # 寫入CSV Saving a DataFrame to a CSV ==> pandas.DataFrame.to_csv()
 ```py
 # read in data only in the Date and Close columns
@@ -60,9 +62,6 @@ df2[:5]
 # save df2 to a new csv file
 # also specify naming the index as date
 df2.to_csv("./msft_A999168.csv", index_label='date')
-```
-```
-
 ```
 ```py
 # view the start of the file just saved
