@@ -23,11 +23,16 @@
 python可以同一行顯示多個語句，使用;分開
 ```py
 print('hello');print('hello1');
+total = "A" + \
+        "B" + \
+        "C"
+total
 ```
 結果
 ```
 hello
 hello1
+ABC
 ```
 
 python不使用{}(大括號)，取而代之使用縮排來取代大括號，因此對於縮排非常重要
