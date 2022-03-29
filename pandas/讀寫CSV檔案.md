@@ -56,8 +56,7 @@ msft[:5]
 df2 = pd.read_csv("./msft.csv", usecols=['Date', 'Close'], index_col=['Date'])
 df2[:5]
 ```
-```
-```
+![image](https://github.com/Azathoth-1661/Python/blob/main/pandas/2.png)
 ```py
 # save df2 to a new csv file
 # also specify naming the index as date
