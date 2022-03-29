@@ -11,7 +11,12 @@
 * ndarray（n-dimensional array，多維陣列）資料結構 ==> 表示多維度、同質並且固定大小的陣列物件
 
 * ndarray的屬性
-  * 
+  * 軸(axis)
+  * 維度(dimension):ndim
+  * 秩rank 
+  * 形狀(shape):shape
+  * dtype(資料型態:data type)
+  * 大小(元素個數):size
 
 <h2 id="2">常用function</h2>
 
