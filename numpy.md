@@ -11,6 +11,7 @@
 * ndarray（n-dimensional array，多維陣列）資料結構 ==> 表示多維度、同質並且固定大小的陣列物件
 
 <h2 id="2">常用function</h2>
-* [numpy.linspace()](#3)
+
+* [numpy.linspace()]
 
 <h2 id="3">numpy.linspace()</h2>
