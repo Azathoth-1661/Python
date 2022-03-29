@@ -12,6 +12,6 @@
 
 <h2 id="2">常用function</h2>
 
-* [numpy.linspace()]
+* [numpy.linspace()](#3)
 
 <h2 id="3">numpy.linspace()</h2>
