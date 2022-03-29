@@ -1,4 +1,3 @@
-# 1讀寫CSV檔案
 * see 9.2 處理CSV及文字/表格格式的資料
 * pandas.read_table
 * 讀取CSV pandas.read_csv()
