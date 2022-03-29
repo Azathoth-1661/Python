@@ -10,3 +10,5 @@
 3. Python優雅的語法和動態型別，結合其直譯特性，使它成為眾多領域和大多數平臺上，撰寫腳本和快速開發應用程式的理想語言。
 
 <h2 id="2">套件</h2>
+
+* [numpy](https://github.com/Azathoth-1661/Python/blob/main/numpy.md)
