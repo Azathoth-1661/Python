@@ -12,6 +12,7 @@
 
 * ndarray的屬性
   * 軸(axis)
+    [參考筆記](http://changtw-blog.logdown.com/posts/895468-python-numpy-axis-concept-organize-notes)
   * 維度(dimension):ndim
   * 秩rank 
   * 形狀(shape):shape
