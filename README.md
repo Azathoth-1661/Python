@@ -45,10 +45,6 @@ hello
 hello1
 ABC
 ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-hello
-hello1
-ABC
-['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 a
 b
 a b
