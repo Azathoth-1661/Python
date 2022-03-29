@@ -10,6 +10,9 @@
 
 * ndarray（n-dimensional array，多維陣列）資料結構 ==> 表示多維度、同質並且固定大小的陣列物件
 
+* ndarray的屬性
+  * 
+
 <h2 id="2">常用function</h2>
 
 * [numpy.linspace()](#3)
@@ -40,5 +43,20 @@ numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, ax
   * step : float
     當endpoint為true時回傳，回傳sample的間距大小
 ```py
-
+np.linspace(2.0, 3.0, num=5)
+```
+```
+array([2.  , 2.25, 2.5 , 2.75, 3.  ])
+```
+```py
+np.linspace(2.0, 3.0, num=5, endpoint=False)
+```
+```
+array([2. , 2.2, 2.4, 2.6, 2.8])
+```
+```py
+np.linspace(2.0, 3.0, num=5, retstep=True)
+```
+```
+(array([2.  , 2.25, 2.5 , 2.75, 3.  ]), 0.25)
 ```
