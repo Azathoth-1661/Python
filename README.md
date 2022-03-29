@@ -7,6 +7,7 @@
 * [基本概念與功能](#1)
 * [套件](#2)
 * [基礎語法](#3)
+* [變數類型](#4)
 
 <h2 id="1">基本概念與功能</h2>
 
@@ -39,7 +40,6 @@ print(y)
 #不換行輸出
 print(x,y)
 ```
-結果
 ```
 hello
 hello1
@@ -59,7 +59,6 @@ else:
     print ("Answer")
   print ("False")
 ```
-結果
 ```
  File "<ipython-input-18-673371a84948>", line 6
     print ("False")
@@ -75,9 +74,25 @@ else:
     print ("Answer")
     print ("False")
 ```
-結果
 ```
 Answer
 True
 ```
 
+<h2 id="4">變數類型</h2>
+
+python的變數賦值不需要宣告類型
+```py
+A = 100 
+B = 1000.0 
+C = "John" 
+
+print(A)
+print(B)
+print(C)
+```
+```
+100
+1000.0
+John
+```
