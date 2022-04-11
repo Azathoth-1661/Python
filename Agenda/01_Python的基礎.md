@@ -1,7 +1,10 @@
-# 甚麼是Python 
+# 為什麼使用 Python 
 
-* Python
+### Python 的優點
+* Python 為直譯式語言
+* Python 
 
+### Python 的缺點
 <h2 id="1">基本概念與功能</h2>
 
 1. Python 是一種易學、功能強大的程式語言
