@@ -57,3 +57,15 @@ print(type(e))
 ```py
 
 ```
+4. 使用`input()`鍵盤輸入函數完成基礎運算
+```py
+a = int(input('a = '))
+b = int(input('b = '))
+print('%d + %d = %d' % (a, b, a + b))
+print('%d - %d = %d' % (a, b, a - b))
+print('%d * %d = %d' % (a, b, a * b))
+print('%d / %d = %f' % (a, b, a / b))
+print('%d // %d = %d' % (a, b, a // b))
+print('%d %% %d = %d' % (a, b, a % b))
+print('%d ** %d = %d' % (a, b, a ** b))
+```
