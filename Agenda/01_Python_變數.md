@@ -8,6 +8,6 @@
   * Dictionary（字典）
   * Set（集合）
 * 不可變數據
-  * Number（數字）
+  * Number（數字） ==> 支援int(整數)、float(浮點數)、bool、complex(複數)
   * String（字符串）
   * Tuple（元组）
