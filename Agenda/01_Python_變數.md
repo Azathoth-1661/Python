@@ -20,4 +20,5 @@
   * 不要跟關鍵字（有特殊含義的單詞）和系統保留字（如函數、模組等的名字）衝突。
 * [PEP8 要求](https://cflin.com/wordpress/603/pep8-python%E7%B7%A8%E7%A2%BC%E8%A6%8F%E7%AF%84%E6%89%8B%E5%86%8A)
   
-  
+### [運算子](https://www.runoob.com/python3/python3-basic-operators.html)
+* 賦值運算子 ==> 賦值運算子應該是最為常見的運算子，它的作用是將右邊的值賦給左邊的變數。
