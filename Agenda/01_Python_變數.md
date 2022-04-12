@@ -100,3 +100,23 @@ print('%d // %d = %d' % (a, b, a // b))
 print('%d %% %d = %d' % (a, b, a % b))
 print('%d ** %d = %d' % (a, b, a ** b))
 ```
+5. 華氏溫度轉攝氏溫度
+```py
+f = float(input('華氏溫度: '))
+c = (f - 32) / 1.8
+print('%.1f華氏溫度 = %.1f攝氏溫度' % (f, c))
+```
+6. 使用圓的半徑計算周長與面積
+```py
+radius = float(input('圓的半徑: '))
+perimeter = 2 * 3.1416 * radius
+area = 3.1416 * radius * radius
+print('周長: %.2f' % perimeter)
+print('面積: %.2f' % area)
+```
+7. 判斷是否為閏年
+```py
+year = int(input('年份: '))
+is_leap = year % 4 == 0 and year % 100 != 0 or year % 400 == 0
+print(is_leap)
+```
