@@ -21,4 +21,18 @@
 * [PEP8 要求](https://cflin.com/wordpress/603/pep8-python%E7%B7%A8%E7%A2%BC%E8%A6%8F%E7%AF%84%E6%89%8B%E5%86%8A)
   
 ### [運算子](https://www.runoob.com/python3/python3-basic-operators.html)
-* 賦值運算子 ==> 賦值運算子應該是最為常見的運算子，它的作用是將右邊的值賦給左邊的變數。
+* 賦值運算子 ==> 賦值運算子的作用是將右邊的值賦給左邊的變數。
+
+### 變數的使用與練習
+* 開發環境 ==> [Google Colab](https://colab.research.google.com/?utm_source=scs-index)
+* Version ==> Python 3.7.13
+1. 加減乘除
+```py
+a = 321
+b = 12
+print(a + b)    
+print(a - b)    
+print(a * b)    
+print(a / b)
+```
+2. 使用||type()||函數查詢變數的類型
