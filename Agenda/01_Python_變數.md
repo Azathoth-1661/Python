@@ -35,4 +35,17 @@ print(a - b)
 print(a * b)    
 print(a / b)
 ```
-2. 使用||type()||函數查詢變數的類型
+2. 使用`type()`函數查詢變數的類型
+```py
+a = 100
+b = 12.345
+c = 1 + 5j
+d = 'hello, world'
+e = True
+print(type(a))    
+print(type(b))    
+print(type(c))    
+print(type(d))    
+print(type(e)) 
+```
+3. 
