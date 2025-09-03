@@ -1,4 +1,18 @@
 ## 專案架構
+### 主分析 Notebook（Colab）
+Stock_Analysis_Multi_2024.ipynb  
+
+### 台積電股價資料
+2330.TW.csv                      
+
+### 鴻海股價資料
+2317.TW.csv  
+
+### 聯發科股價資料
+2454.TW.csv        
+
+### 專案說明文件
+readme.md                        
 
 ### 專案簡介
 
