@@ -161,32 +161,26 @@ for ticker, df in stock_data.items():
     plt.plot(df['date'], df['MA5'], linestyle='--', label=f"{ticker} MA5")
     plt.plot(df['date'], df['MA20'], linestyle=':', label=f"{ticker} MA20")
 ```
-RSI 與 MACD 指標分析
+RSI 與 MACD 指標分析（防呆版本）
 ```py
+# 下載資料
 ts_mc = yf.download('2330.TW', start='2024-01-01', end='2024-08-31')
 
-ts_mc['RSI'] = ta.momentum.RSIIndicator(ts_mc['Close']).rsi()
-macd = ta.trend.MACD(ts_mc['Close'])
-ts_mc['MACD'] = macd.macd()
-ts_mc['MACD_signal'] = macd.macd_signal()
+# 防呆處理：確保 Close 為 Series 且無缺值
+close_series = pd.Series(ts_mc['Close'].values, index=ts_mc.index).fillna(method='ffill')
 
+# RSI 計算
+rsi_indicator = ta.momentum.RSIIndicator(close=close_series)
+ts_mc['RSI'] = rsi_indicator.rsi()
+
+# MACD 計算
+macd_indicator = ta.trend.MACD(close=close_series)
+ts_mc['MACD'] = macd_indicator.macd()
+ts_mc['MACD_signal'] = macd_indicator.macd_signal()
+
+# 繪圖
 ts_mc[['Close', 'RSI', 'MACD', 'MACD_signal']].plot(figsize=(12,6))
 plt.title('TSMC RSI & MACD')
-plt.show()
-```
-股價預測模型（Prophet）
-```py
-from prophet import Prophet
-
-prophet_df = ts_mc.reset_index()[['Date', 'Close']].rename(columns={'Date': 'ds', 'Close': 'y'})
-
-model = Prophet()
-model.fit(prophet_df)
-
-future = model.make_future_dataframe(periods=120)
-forecast = model.predict(future)
-
-model.plot(forecast)
-plt.title('TSMC Stock Price Forecast')
+plt.grid(True)
 plt.show()
 ```
