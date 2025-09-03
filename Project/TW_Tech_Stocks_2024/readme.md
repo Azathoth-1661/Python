@@ -16,8 +16,6 @@ Google Colab
 
 Yahoo Finance API
 
-台灣證券交易所公開資料
-
 ### 分析流程
 
 資料收集與清理
