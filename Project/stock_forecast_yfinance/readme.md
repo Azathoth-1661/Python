@@ -111,7 +111,7 @@ plt.show()
 
 ## 五、forecast 資料夾內容補充
 
-forecast/ 資料夾包含以下成果圖表
+forecast 資料夾包含以下成果圖表
 
 - sma_plot.png：SMA 技術指標圖，顯示短期與長期均線交叉情形
 
