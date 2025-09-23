@@ -1,0 +1,4 @@
+Prophet MAPE: 1534.33%
+Prophet RMSE: 97.73
+Baseline MAPE: 43.57%
+Baseline RMSE: 50.02
