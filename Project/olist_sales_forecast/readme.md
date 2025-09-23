@@ -54,6 +54,14 @@
 
 ---
 
+## 圖表觀察重點
+
+- `holiday_forecast.png` 顯示節日前後訂單數有明顯波動，模型能捕捉高峰趨勢  
+- `forecast_comparison.png` 顯示 Prophet 模型在波動區間表現優於 baseline  
+- `error_metrics.txt` 彙整誤差指標，顯示 Prophet 模型整體預測準確度更高
+
+---
+
 - `prophet_model.py`：Prophet 模型訓練、預測與視覺化
   
 prepare_data(df)：轉換資料格式為 Prophet 所需的 ds 與 y 欄位
