@@ -34,9 +34,9 @@ from modules.sma import calculate_sma
 from modules.ema import calculate_ema
 from modules.macd import calculate_macd
 
-df['SMA_20'] = calculate_sma(df['Close'], window=20)
-df['EMA_20'] = calculate_ema(df['Close'], span=20)
-macd_df = calculate_macd(df['Close'])
+df['SMA_20'] = calculate_sma(df['close'], window=20)
+df['EMA_20'] = calculate_ema(df['close'], span=20)
+macd_df = calculate_macd(df['close'])
 df = pd.concat([df, macd_df], axis=1)
 ```
 
