@@ -67,3 +67,4 @@ plot_baseline(df)：視覺化 baseline 模型預測結果與實際值
 
 ## 執行方式
 
+[點此開啟 Colab 筆記本](https://colab.research.google.com/drive/15R5-Rclv37FL0fqCvERk1CBlfxX78LJ9?hl=zh-tw)
