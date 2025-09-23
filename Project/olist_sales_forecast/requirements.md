@@ -1,8 +1,13 @@
 pandas>=1.3.0
+
 matplotlib>=3.4.0
+
 prophet>=1.1.0
+
 numpy>=1.21.0
+
 scikit-learn>=0.24.0
+
 plotly>=5.3.0
 
 ---
