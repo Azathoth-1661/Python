@@ -67,3 +67,9 @@
 ## 🔗 附件與連結
 
 * [Colab](https://colab.research.google.com/drive/1D_E5-LHiF8N56ebqG5IYL2bQkjCicj6N)
+
+---
+
+##  本專案用途
+
+本專案為個人資料分析作品集之一，已同步整理至履歷平台（104 / Cake ）
