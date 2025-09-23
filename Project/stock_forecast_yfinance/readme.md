@@ -67,4 +67,3 @@
 ## 🔗 附件與連結
 
 * [Colab](https://colab.research.google.com/drive/1D_E5-LHiF8N56ebqG5IYL2bQkjCicj6N)
-* [GitHub 專案首頁](https://github.com/Azathoth-1661/Python/tree/main/Project/stock_forecast_yfinance)
