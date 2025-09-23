@@ -75,7 +75,7 @@ plot_baseline(df)：視覺化 baseline 模型預測結果與實際值
 ## 執行方式
 直接在 Google Colab 上開啟並執行本專案分析流程：
 
-👉 [點此開啟 Colab 筆記本](https://colab.research.google.com/drive/15R5-Rclv37FL0fqCvERk1CBlfxX78LJ9?hl=zh-tw)
+[點此開啟 Colab 筆記本](https://colab.research.google.com/drive/15R5-Rclv37FL0fqCvERk1CBlfxX78LJ9?hl=zh-tw)
 
 在本機執行，請參考以下模組化程式碼與資料結構
 
@@ -83,3 +83,9 @@ plot_baseline(df)：視覺化 baseline 模型預測結果與實際值
 pip install -r requirements.txt
 python modules/prophet_model.py
 ```
+
+---
+
+##  本專案用途
+
+本專案為個人資料分析作品集之一，已同步整理至履歷平台（104 / Cake / LinkedIn），歡迎參考並交流。
