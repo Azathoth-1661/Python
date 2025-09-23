@@ -17,3 +17,10 @@
 - Python / pandas / Prophet / matplotlib / scikit-learn  
 - 時間序列分析 / 預測模型 / 技術指標 / 誤差指標（MAPE、RMSE）  
 - GitHub 專案管理 / 模組化程式設計 / 資料視覺化
+
+---
+
+## 🛠️ 更新紀錄
+
+- 2025/09/23：新增 `olist_sales_forecast` 專案並補齊 README、Colab 筆記本與成果圖表  
+- 2025/09/17：完成 `stock_forecast_yfinance` 專案並撰寫技術指標模組與預測模型
