@@ -10,7 +10,7 @@
 | 專案名稱 | 主題 | 技術 | 成果摘要 | GitHub 連結 | 
 | --- | --- | --- | --- | --- | 
 | `stock_forecast_yfinance` | 股票預測分析 | yfinance、技術指標、Prophet | 預測未來股價趨勢，整合技術指標與時間序列模型 | [GitHub 專案連結](https://github.com/Azathoth-1661/Python/tree/main/Project/stock_forecast_yfinance) | 
-| `olist_sales_forecast` | 電商訂單預測 | Olist 資料、Prophet、baseline 模型 | 預測每日訂單數，MAPE 降低 18%，成果視覺化完整 | [GitHub 專案連結](https://github.com/Azathoth-1661/Python/tree/main/Project/stock_forecast_yfinance) | 
+| `olist_sales_forecast` | 電商訂單預測 | Olist 資料、Prophet、baseline 模型 | 預測每日訂單數，MAPE 降低 18%，成果視覺化完整 | [GitHub 專案連結](https://github.com/Azathoth-1661/Python/tree/main/Project/olist_sales_forecast) | 
 
 ---
 
