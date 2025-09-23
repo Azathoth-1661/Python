@@ -22,18 +22,14 @@
 
 ---
 
-## 專案結構
-data # 原始資料或下載腳本
-
-modules # 技術指標模組
-
-forecast # 預測結果與圖表
-
-reports #分析報告
-
-README.md # 專案說明
-
-colab_notebook.ipynb # 執行筆記本
+```
+data                 # 原始資料或下載腳本  
+modules              # 技術指標模組  
+forecast             # 預測結果與圖表  
+reports              # 分析報告  
+README.md             # 專案說明  
+colab_notebook.ipynb  # 執行流程筆記本
+```
 
 ---
 
